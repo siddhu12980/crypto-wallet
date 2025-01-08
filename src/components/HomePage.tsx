@@ -1,3 +1,4 @@
+"use client";
 import { FeaturesSection } from "./Features";
 import MainButton from "./MainButton";
 import { Testimonials } from "./Testimonial";
@@ -17,13 +18,18 @@ export const HOMEPAGE = () => {
           </h3>
         </div>
 
-        <MainButton />
+        <MainButton
+          input="Get Started"
+          onSubmit={() => {
+            window.location.href = "/home";
+          }}
+        />
       </BackgroundLines>
 
       <FeaturesSection />
       <div>
         <h1 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white sm:text-2xl md:text-4xl  lg:text-6xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-          Don't just take our word for it,
+          Dont just take our word for it,
           <br />
           Hear from our customers
         </h1>

@@ -1,10 +1,8 @@
 import { cn } from "@/lib/utils";
 import {
-  IconAdjustmentsBolt,
   IconCloud,
   IconCurrencyDollar,
   IconEaseInOut,
-  IconHeart,
   IconHelp,
   IconRouteAltLeft,
   IconTerminal2,
@@ -43,7 +41,7 @@ export function FeaturesSection() {
     {
       title: "24/7 Customer Support",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
+        "We are available a 100% of the time. ",
       icon: <IconHelp />,
     }
   ];
